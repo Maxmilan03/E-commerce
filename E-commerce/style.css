@@ -7,20 +7,14 @@ html{
     scroll-behavior: smooth;
 }
 
-
-  
-
 body {
     font-family: 'Poppins', sans-serif;
     
 }
 
-
-  body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     width: 0; 
-  }
-  
-  
+}
 
 .offer-bar {
     background-color: #1D232C;
@@ -80,8 +74,7 @@ body {
 .navbar-search input {
     border: none;
     width: 100%;
-    background-color: transparent;
-    
+    background-color: transparent;    
 }
 
 input:focus {
@@ -103,9 +96,6 @@ input:focus {
     .navbar-links {
         display: none;
     }
-
-    
-
 }
 
 /* Side Navbar */
@@ -121,7 +111,6 @@ input:focus {
     transition-duration: 1s;
     z-index: 10;
     padding: 20px;
-  
 }
 
 .side-navbar-link{
@@ -151,15 +140,12 @@ input:focus {
 }
 
 /*Slider*/
-
 .slider{
     overflow: hidden;
     display: flex;
     width: 100%;
     position: relative;
-    
     border-radius: 5px;
-
 }
 
 .slider-image-container{
@@ -180,16 +166,18 @@ input:focus {
 
 .slider-left-button i{
     font-size: 10vw;
-    
 }
+
 .slider-right-button{
     position: absolute;
     top: 35%;
     right: 5%;
 }
+
 .slider-right-button i{
     font-size: 10vw;
 }
+
 .slider-content{
     position: absolute;
     color: white;
@@ -197,9 +185,11 @@ input:focus {
      width: 100%;
      top: 20%;
 }
+
 .slider-content h1{
     font-size: 5vw;
 }
+
 .slider-content button{
    padding-left: 20px;
    padding-right: 20px;
@@ -212,17 +202,13 @@ input:focus {
 /* Brands*/
 .brands{
     display: flex;
-    margin-top: 2vw;
-    
-    justify-content: space-between;
-    
-    
+    margin-top: 2vw; 
+    justify-content: space-between;  
 }
 
 .brands-icon{
     width: 4vw;
     align-items: center;
-
 }
 
 .brands-item{
@@ -230,13 +216,10 @@ input:focus {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    font-size: 2vw;
-    
+    font-size: 2vw; 
 }
 
-
-.servives-container-1
-{
+.servives-container-1 {
     margin-top: 5vw;
     margin-bottom: 2vw;
     display: flex;
@@ -245,45 +228,32 @@ input:focus {
     font-size: 1.5vw;
 }
 
-.servives-container-2
-{
-    
+.servives-container-2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     gap: 10px;
     font-size: 1vw;
-    
 }
 
 .servives-container-2 div{
     border-radius: 5px;
     background-color: #F2F4F7;
     padding: 10px;
-    
-    
-
 }
 
 .new-arrival{
     display: flex;
     justify-content: space-between;
     margin-top: 2vw;
-   
-    
 }
 
 .new-arrival-container{
-   position: relative;
-   
-    
+   position: relative; 
 }
 
 .new-arrival-container img{
-    border-radius: 2%;
-    
-     
+    border-radius: 2%;  
  }
  
 
@@ -298,8 +268,6 @@ input:focus {
     opacity: 0.6;
  }
  
-
-
 .new-arrival button{
     padding-left: 10%;
     padding-right: 10%;
@@ -314,8 +282,6 @@ input:focus {
     top: 50%;
     left: 18%;
     z-index: 2;
-    
-
  }
 
  .most-wanted{
@@ -323,9 +289,7 @@ input:focus {
     justify-content: space-between;
     margin-top: 2vw;
     overflow-x: scroll;
-    gap: 20px;
-   
-    
+    gap: 20px;  
 }
 
 .most-wanted-container{
@@ -334,8 +298,7 @@ input:focus {
 
 .most-wanted img{
     border-radius: 2%;
-    
-     
+       
  }
 
  .sale-overlay{
@@ -352,7 +315,6 @@ input:focus {
 
  .most-wanted::-webkit-scrollbar {
     appearance: none;
-    
   }
    
 .like-button{
@@ -365,7 +327,6 @@ input:focus {
 .limited-offer{
     display: flex;
     justify-content: center;
-    
     align-items: center;
     background-color: #1D232C;
     color: #E2E1E1;
@@ -391,17 +352,11 @@ input:focus {
     font-size: 1.2vw;
     color: #1D232C;
     border-radius: 10px;
- 
     border: none;
-    
-    
-
  }
 
  /* Scroll Animate */
-
  .initial-scroll-animate{
-   
     transition: 3s;
  }
 
@@ -422,16 +377,13 @@ input:focus {
     width: 80vw;
     margin-bottom: 10px;
     border: solid #1D232C 3px;
-
 }
 
 .news input:focus{
    outline: none;
-
 }
 
 .news button{
-    
     margin-top: 10px;
     font-size: 1.8vw;
     color: #E2E1E1;
@@ -439,17 +391,13 @@ input:focus {
     border-radius: 10px;
     border: none;
     padding:10px
-    
-    
-
  }
-
 
  .icon{
     width: 40px;
     margin: 2vw;
-
 }
+
 .footer{
     font-size: 2vw;
     margin-top: 5vw;
@@ -459,8 +407,7 @@ input:focus {
     box-sizing: border-box;
 }
 
-.footer-container{
-   
+.footer-container{   
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -469,7 +416,6 @@ input:focus {
 .footer-box-1{
     display: flex;
     flex-direction: column;
-  
 }
 
 .footer-box-2{
@@ -477,7 +423,6 @@ input:focus {
 }
 
 /* Collections */
-
 .divide-section{
     display: flex;
 }
@@ -501,13 +446,11 @@ input:focus {
     position: absolute;
     top: 0px;
     right: 0px
-    
   }
 
 .filter-section-price,.filter-section-arrivals,.filter-section-occasion,.filter-section-colors{
     margin-top: 3vw;
     margin-bottom: 10px;
-    
 }
 
 .product-section{
@@ -522,9 +465,7 @@ input:focus {
     font-size:1vw;
 }
 
-
-
-  .contact-form {
+.contact-form {
     background-color: #1D232C;
     color: #dddddd;
     border-radius: 8px;
@@ -536,35 +477,31 @@ input:focus {
     margin-top: 10px;
   }
 
-  .contact-form h2 {
-    margin-bottom: 1vw;
-   
+.contact-form h2 {
+    margin-bottom: 1vw;   
   }
 
-  .contact-form label {
+.contact-form label {
     display: block;
     margin-bottom: 1vw;
- 
   }
 
-  .contact-form input[type="text"],
-  .contact-form textarea {
+.contact-form input[type="text"],
+.contact-form textarea {
     width: 100%;
     padding: 2vw;
     border: 1px solid #dddddd;
     border-radius: 4px;
     margin-bottom: 1vw;
-    font-size: 1vw;
-    
+    font-size: 1vw;    
   }
 
-  .contact-form textarea {
-    resize: vertical;
+.contact-form textarea {
+    resize: none;
     height: 10vh;
   }
 
-  .contact-form input[type="submit"] {
-    
+.contact-form input[type="submit"] {    
     color: #ffffff;
     border: none;
     border-radius: 4px;
@@ -574,6 +511,6 @@ input:focus {
     background-color: #0056b3;
   }
 
-  .contact-form input[type="submit"]:hover {
+.contact-form input[type="submit"]:hover {
     background-color: #0056b3;
   }
