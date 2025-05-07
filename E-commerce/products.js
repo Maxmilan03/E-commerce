@@ -7,7 +7,6 @@ const products = [
         price:220,
         tags:["new","blue","summer"]
     },
-
     {
         id:2,
         name:"Summer Green",
@@ -16,7 +15,6 @@ const products = [
         price:260,
         tags:["new","green","beach"]
     },
-
     {
         id:3,
         name:"Party Floral Shirt",
@@ -25,7 +23,6 @@ const products = [
         price:399,
         tags:["old","red","party"]
     },
-
     {
         id:4,
         name:"Floral Summer Shirt",
@@ -41,8 +38,7 @@ const products = [
         desc:"",
         price:579,
         tags:["old","white","beach"]
-    }
-,
+    },
     {
         id:6,
         name:"Shirt Party Red",
@@ -51,7 +47,6 @@ const products = [
         price:579,
         tags:["old","red","party"]
     },
-
     {
         id:7,
         name:"Party Floral Shirt",
@@ -76,8 +71,6 @@ const products = [
         price:220,
         tags:["new","blue","summer"]
     },
-
-
 ]
 
 export {products}
