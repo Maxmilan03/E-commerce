@@ -1,10 +1,8 @@
 import {products} from "./products.js";
 
-
 var offerBar = document.querySelector(".offer-bar")
 
 document.getElementById("offer-close").addEventListener("click",
-
 function(){
     offerBar.style.display="none"
 }
@@ -13,7 +11,6 @@ function(){
 var sideNavMenu=document.querySelector(".navbar-menu-toggle")
 var sidenavbar = document.querySelector(".side-navbar")
 sideNavMenu.addEventListener("click",function(){
-   
     sidenavbar.style.marginLeft="0px"
 })
 
@@ -29,7 +26,6 @@ products.forEach((product)=>{
     <h1>${product.name}</h1>
     <p>₹${product.price}</p>
     <tags style="visibility:hidden;">${product.tags}</tags>`
-
     container.append(createItem)
 })
 
@@ -39,22 +35,17 @@ console.log(tags)
 
 tags.forEach((tag)=>{
     tag.addEventListener("change",(e)=>{
-
         if(e.target.checked)
         {
         filterList.push(e.target.value)
         console.log(filterList)
         update()
-        
         }
         else{
             filterList = filterList.filter(item => item !== e.target.value);
             update()
 
         }
-
-        
-       
     })
 })
 
@@ -64,28 +55,17 @@ tags.forEach((tag)=>{
 // })
 
 function update()
-{
-
-    
-
-    
-
-    
+{  
     var productList = document.querySelectorAll(".product")
     for(var i=0;i<productList.length;i++){
         var check = false
         var product=productList[i]
         console.log(product)
         var temp=product.querySelector("tags").innerHTML
-       
         console.log("elemen"+temp)
-        
-
-        const tempFilterArray = temp.split(',');
-        
+        const tempFilterArray = temp.split(',');   
         console.log("tempfilterarray"+tempFilterArray)
         console.log("filterlist"+filterList)
-       
             filterList.forEach((j)=>{
                 tempFilterArray.forEach((i)=>{
                 if(j==i)
@@ -95,7 +75,6 @@ function update()
             })
         })
 
-
         if(!check && filterList.length>0)
         {
             product.style.display="none"
@@ -103,9 +82,5 @@ function update()
         else{
             product.style.display="block"
         }
-
-        
     };
-
-
 }
